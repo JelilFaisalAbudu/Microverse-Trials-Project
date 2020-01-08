@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<<!DOCTYPE html>
+
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -17,19 +17,32 @@
       <div id="form-content">
         <form id="survey-form">
           <label for="name" id="name-label">Name:
-              <input type="text" id="name" name="name" value="name" required placeholder="Enter your email"/></label>
+              <input type="text" id="name" name="name" required placeholder="Enter your email"/></label>
           <label for="email" id="emqail-label">Email:
-              <input type="email" id="email" name="email" value="email" required placeholder="Enter your email" />
+              <input type="email" id="email" name="email" required placeholder="Enter your email" />
           </label>
           <div class="invalid-mail"></div>
           <label for="number" id="number-label">Contact Number:
               <input type="number" id="number" name="number" value="number" min="10" max="10" />
-         </label>
+         </label><br>
          <select id="dropdown">
-             <input />
-        </select>
+             <option value="male">male</option>
+             <option value="female">Female</option>
+        </select><br>
+            Boy:<input id="name" type="radio" name="name" value="body" />
+            Girl:<input id="name" type="radio" name="name" value="girl" />
+            Other:<input id="name" type="radio" name="name" value="other" /><br>
+
+
+            Boy:<input id="name" type="checkbox" name="persionality1" value="good" />
+            Boy:<input id="name" type="checkbox" name="persionality2" value="bad" />
+            Boy:<input id="name" type="checkbox" name="persionality3" value="worse" /><br>
+
+            <textarea cols="8" rows="6" placeholder="enter your comment here"></textarea><br>
+            <input id="submit" type="submit" value="SUBMIT" />
+
         </form>
-      </div>
+    </div>
         <!-- end of form construction-->
 
     </div>
